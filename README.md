@@ -6,7 +6,7 @@ This folder should be uploaded to Intel DevCloud's JupyterLab environment.
 
 ## Tutorial Format
 
-This tutorial is offered as a standalone page (this file) and a Jupyter Notebook to help you get started on Intel(R) DevCloud, a platform for experimenting with XPUs and cluster computing.
+This tutorial will help you get started on Intel(R) DevCloud, a platform for experimenting with XPUs and cluster computing.
 
 1. Intel(R) DevCloud is a cloud service that allows users to work on XPU-based computers to learn different programming paradigms and prototype projects.
 
@@ -37,8 +37,6 @@ To get started, let's first get Line Numbers to show up!
 Another useful setting is increasing the code and content font sizes.  To do so, go to *Settings* in the *Menu bar*, then the *JupyterLab Theme* submenu, followed by either *Increase Code Font Size* or *Increase Content Font Size*.  Repeat this step until the content and code sizes are to your desiring.
 
 ## Getting acquainted with job submission on Intel DevCloud for oneAPI
-
-Each component has its own folder with a cn_README.md (right-click -> Open with -> Markdown Preview).
 
 Now that you are familiar with JupyterLab go ahead and go into the `c1_intro_parallel_computing` folder on the left pane.
 
