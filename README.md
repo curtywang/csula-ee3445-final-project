@@ -24,7 +24,7 @@ This tutorial will help you get started on Intel(R) DevCloud, a platform for exp
 
 ## Getting acquainted with JupyterLab
 
-![JupyterLab Overview](./assets/jupyterlab_overview.png)
+![JupyterLab Overview](./c1_intro_parallel_computing/assets/jupyterlab_overview.png)
 _Figure: JupyterLab user interface is shown, with the left sidebar (file explorer, kernel control, and current notebook table of contents), main area (notebooks, text files, notebooks, etc.), menu bar (command palette), and status bar (kernel status, text file lines and columns, etc.)._
 
 JupyterLab is very much like other IDE applications, except it runs inside the browser for users.  Much like most IDEs, JupyterLab can navigate your files, split into tabs (simply just drag the tab around after you open a file), run code, display lines numbers, etc.
