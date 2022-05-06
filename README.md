@@ -42,9 +42,11 @@ Another useful setting is increasing the code and content font sizes.  To do so,
 
 ## Getting this folder onto JupyterLab
 
-You can either manually upload every file, or simply hit the Blue + icon, then select "Terminal", then run the following command:
+You can either manually upload every file, or simply hit the Blue + icon (top left), then select "Terminal", then run the following command:
 
 `git clone https://github.com/curtywang/csula-ee3445-final-project/`
+
+Then, hit the little refresh circle button next to the Blue + icon and you will see this folder on DevCloud JupyterLab!
 
 ## Getting acquainted with job submission on Intel DevCloud for oneAPI
 
