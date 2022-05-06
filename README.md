@@ -55,4 +55,4 @@ is the same notebook as the `Welcome.ipynb` notebook that opens by default on In
 
 ## Acknowledgements
 
-This project was supported in part by Intel Corporation.
+This project was supported in part by Intel Corporation through the Intel Mindshare Curriculum grant program.
