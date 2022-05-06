@@ -42,3 +42,7 @@ Now that you are familiar with JupyterLab go ahead and go into the `c1_intro_par
 
 Go ahead and proceed with the `c1_a_intro_intel_devcloud.ipynb` notebook, which
 is the same notebook as the `Welcome.ipynb` notebook that opens by default on Intel DevCloud's JupyterLab.
+
+## Acknowledgements
+
+This project was supported in part by Intel Corporation.
