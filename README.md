@@ -1,4 +1,6 @@
-# EE 3445 Course Project
+# Cal State LA EE 3445 Course Project
+
+Authors: Y. Curtis Wang, Mo Zhang
 
 This folder should be uploaded to Intel DevCloud's JupyterLab environment.
 
