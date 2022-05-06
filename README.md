@@ -4,6 +4,8 @@ Author: Y. Curtis Wang
 
 This folder should be uploaded to Intel DevCloud's JupyterLab environment.
 
+The easiest way is to first read the directions below, then once on DevCloud, upload/clone.
+
 **NOTE: to view this file with proper formatting, open it via: (right-click README.md -> Open with -> Markdown Preview).**
 
 ## Tutorial Format
@@ -37,6 +39,12 @@ To get started, let's first get Line Numbers to show up!
 4. Work through this notebook, starting from the top, so you get an understanding of Jupyter Notebooks and how to execute programs on the DevCloud system.  Continue to the next section of this tutorial when you have finished the Welcome.ipynb notebook.
 
 Another useful setting is increasing the code and content font sizes.  To do so, go to *Settings* in the *Menu bar*, then the *JupyterLab Theme* submenu, followed by either *Increase Code Font Size* or *Increase Content Font Size*.  Repeat this step until the content and code sizes are to your desiring.
+
+## Getting this folder onto JupyterLab
+
+You can either manually upload every file, or simply hit the Blue + icon, then select "Terminal", then run the following command:
+
+`git clone https://github.com/curtywang/csula-ee3445-final-project/`
 
 ## Getting acquainted with job submission on Intel DevCloud for oneAPI
 
