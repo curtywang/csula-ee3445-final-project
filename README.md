@@ -8,6 +8,53 @@ The easiest way is to first read the directions below, then once on DevCloud, up
 
 **NOTE: to view this file with proper formatting, open it via: (right-click README.md -> Open with -> Markdown Preview).**
 
+
+## Introduction
+In this project, you will learn how to implement multiprocessing/multithreading concepts in software, benchmark and analyze your results, and report your success in improving the performance of software.
+
+We will use the Intel DevCloud system so that we can take advantage of the massive number of cores to determine the performance of our software as we scale our software up.
+
+You may choose your language (Python, C++, Java/Kotlin, etc.) but the tutorials provided will be available primarily in Python for rapid prototyping.
+
+## Project Components
+There are three primary components to this project:
+
+1. Introduction to parallel computing / multiprocessing
+    1. Getting started with job submission on Intel DevCloud
+    1. Getting started with Python's multiprocessing library
+    1. Benchmarking using timeit and tracemalloc
+1. Augmenting the performance of an algorithm
+1. Analyzing performance as the algorithm scales up/out
+
+## Project Overview
+The GitHub repository for this project contains all of the notebooks needed: https://github.com/curtywang/csula-ee3445-final-project (Links to an external site.) 
+
+We will be using Intel DevCloud's JupyterLab environment: https://devcloud.intel.com/oneapi/home/ (Links to an external site.) 
+
+After logging in, click "Get Started" and scroll down until you see "Connect with Jupyter* Lab", then click "Launch JupyterLab*".
+
+You can either clone/download the repository to your own computer and upload into DevCloud, or clone the repository using the terminal in DevCloud.
+
+### Component 1: Introduction to Parallel Processing / Multiprocessing
+In this component, you will follow a three-notebook series to familiarize yourself with the Intel DevCloud environment, job submission to a computing cluster / server computer, as well as benchmarking and multiprocessing.
+
+If you are already familiar with multiprocessing, parallel computing, and benchmarking, you may not need to work through all three workbooks, just the Intel DevCloud workbook.
+
+### Component 2: Augmenting the performance of a software application
+In this component, you will pick an implementation of an algorithm to parallelize in order to increase the throughput.  Recall that parallelization does not necessarily decrease the latency, but if done properly, can significantly improve the throughput of your software application by maximizing resource usage on modern computing systems.  While parallelization cannot decrease the latency of a single run, when there are multiple runs queued, can complete the queue much faster than a serial approach.
+
+To get started, pick a piece of software with available source code where you're interested in performance augmentation and analysis.  If you don't really have a particular software application in mind, here are a few suggestions:
+
+- Monte carlo method for finding pi
+- Video processing
+- Numerical integration of a function
+- Hyperparameter grid search
+
+### Component 3: Analyzing performance as the software application scales up
+In this component, you will analyze your parallelized code by using both programmatic tools (modules/libraries) in Python and available tools within Linux and scaling your software application up in terms of the number of processes.  You'll collect data and plot the results for analysis.
+
+# Getting Started
+
 ## Tutorial Format
 
 This tutorial will help you get started on Intel(R) DevCloud, a platform for experimenting with XPUs and cluster computing.
